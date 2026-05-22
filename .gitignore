@@ -1,0 +1,39 @@
+# Dependency directories
+/node_modules/
+/target/
+/.anchor/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Solana/Anchor specific
+test-ledger/
+.env
+deploy/
+*.so
+# Ignore all JSON files in the root (usually keypairs) but allow specific configs
+*.json
+!package.json
+!tsconfig.json
+!Anchor.toml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Others
+notes.md
+.qodo
